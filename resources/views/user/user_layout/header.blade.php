@@ -1,4 +1,3 @@
-
 <body>
 
     <!-- loader start -->
@@ -10,7 +9,7 @@
                     <div class="header-left">
                         <div class="brand-logo">
                             <a href="index.html">
-                                <img src="{{asset('assets/user//images/icon/logo-color.png')}}" alt="logo"
+                                <img src="{{ asset('assets/user//images/icon/logo-color.png') }}" alt="logo"
                                     class="img-fluid blur-up lazyload">
                             </a>
                         </div>
@@ -40,7 +39,8 @@
                                         <ul class="friend-list">
                                             <li>
                                                 <div class="media">
-                                                    <img src="{{asset('assets/user//images/user-sm/5.jpg')}}" alt="user">
+                                                    <img src="{{ asset('assets/user//images/user-sm/5.jpg') }}"
+                                                        alt="user">
                                                     <div class="media-body">
                                                         <div>
                                                             <h5 class="mt-0">Paige Turner</h5>
@@ -55,7 +55,8 @@
                                             </li>
                                             <li>
                                                 <div class="media">
-                                                    <img src="{{asset('assets/user//images/user-sm/6.jpg')}}" alt="user">
+                                                    <img src="{{ asset('assets/user//images/user-sm/6.jpg') }}"
+                                                        alt="user">
                                                     <div class="media-body">
                                                         <div>
                                                             <h5 class="mt-0">Paige Turner</h5>
@@ -70,7 +71,8 @@
                                             </li>
                                             <li>
                                                 <div class="media">
-                                                    <img src="{{asset('assets/user//images/user-sm/7.jpg')}}" alt="user">
+                                                    <img src="{{ asset('assets/user//images/user-sm/7.jpg') }}"
+                                                        alt="user">
                                                     <div class="media-body">
                                                         <div>
                                                             <h5 class="mt-0">Paige Turner</h5>
@@ -85,7 +87,8 @@
                                             </li>
                                             <li>
                                                 <div class="media">
-                                                    <img src="{{asset('assets/user//images/user-sm/2.jpg')}}" alt="user">
+                                                    <img src="{{ asset('assets/user//images/user-sm/2.jpg') }}"
+                                                        alt="user">
                                                     <div class="media-body">
                                                         <div>
                                                             <h5 class="mt-0">Paige Turner</h5>
@@ -165,7 +168,8 @@
                                             <li>
                                                 <a href="#">
                                                     <div class="media">
-                                                        <img src="{{asset('assets/user//images/user-sm/1.jpg')}}" alt="user">
+                                                        <img src="{{ asset('assets/user//images/user-sm/1.jpg') }}"
+                                                            alt="user">
                                                         <div class="media-body">
                                                             <div>
                                                                 <h5 class="mt-0">Paige Turner</h5>
@@ -181,7 +185,8 @@
                                             <li>
                                                 <a href="#">
                                                     <div class="media">
-                                                        <img src="{{asset('assets/user//images/user-sm/2.jpg')}}" alt="user">
+                                                        <img src="{{ asset('assets/user//images/user-sm/2.jpg') }}"
+                                                            alt="user">
                                                         <div class="media-body">
                                                             <div>
                                                                 <h5 class="mt-0">Paige Turner</h5>
@@ -194,7 +199,8 @@
                                             <li>
                                                 <a href="#">
                                                     <div class="media">
-                                                        <img src="{{asset('assets/user//images/user-sm/3.jpg')}}" alt="user">
+                                                        <img src="{{ asset('assets/user//images/user-sm/3.jpg') }}"
+                                                            alt="user">
                                                         <div class="media-body">
                                                             <div>
                                                                 <h5 class="mt-0">Bob Frapples</h5>
@@ -292,7 +298,8 @@
                                                     <div class="icon">
                                                         <svg class="bar-icon">
                                                             <use class="fill-color"
-                                                                xlink:href="https://themes.pixelstrap.com/friendbook/assets/svg/icons.svg#cake"></use>
+                                                                xlink:href="https://themes.pixelstrap.com/friendbook/assets/svg/icons.svg#cake">
+                                                            </use>
                                                         </svg>
                                                     </div>
                                                     <h5>event</h5>
@@ -334,7 +341,8 @@
                                             <li class="d-block">
                                                 <div>
                                                     <div class="media">
-                                                        <img src="{{asset('assets/user//images/user-sm/5.jpg')}}" alt="user">
+                                                        <img src="{{ asset('assets/user//images/user-sm/5.jpg') }}"
+                                                            alt="user">
                                                         <div class="media-body">
                                                             <div>
                                                                 <h5 class="mt-0"><span>Paige Turner</span> send you a
@@ -344,7 +352,8 @@
                                                                 <div class="action-btns">
                                                                     <button type="button" class="btn btn-solid"><i
                                                                             data-feather="check"></i></button>
-                                                                    <button type="button" class="btn btn-solid ms-1"><i
+                                                                    <button type="button"
+                                                                        class="btn btn-solid ms-1"><i
                                                                             data-feather="x"></i></button>
                                                                 </div>
                                                             </div>
@@ -355,7 +364,8 @@
                                             <li>
                                                 <a href="#">
                                                     <div class="media">
-                                                        <img src="{{asset('assets/user//images/user-sm/6.jpg')}}" alt="user">
+                                                        <img src="{{ asset('assets/user//images/user-sm/6.jpg') }}"
+                                                            alt="user">
                                                         <div class="media-body">
                                                             <div>
                                                                 <h5 class="mt-0"><span>Bob Frapples</span> add their
@@ -370,7 +380,8 @@
                                             <li>
                                                 <a href="#">
                                                     <div class="media">
-                                                        <img src="{{asset('assets/user//images/user-sm/7.jpg')}}" alt="user">
+                                                        <img src="{{ asset('assets/user//images/user-sm/7.jpg') }}"
+                                                            alt="user">
                                                         <div class="media-body">
                                                             <div>
                                                                 <h5 class="mt-0"><span>Josephin water</span> have
@@ -385,10 +396,12 @@
                                             <li>
                                                 <a href="#">
                                                     <div class="media">
-                                                        <img src="{{asset('assets/user//images/user-sm/2.jpg')}}" alt="user">
+                                                        <img src="{{ asset('assets/user//images/user-sm/2.jpg') }}"
+                                                            alt="user">
                                                         <div class="media-body">
                                                             <div>
-                                                                <h5 class="mt-0"><span>Petey Cruiser</span> added a new
+                                                                <h5 class="mt-0"><span>Petey Cruiser</span> added a
+                                                                    new
                                                                     photo
                                                                 </h5>
                                                                 <h6>sun at 5.40 AM</h6>
@@ -408,7 +421,7 @@
                                         data-feather="user"></i>
                                     <div class="media d-none d-sm-flex">
                                         <div class="user-img">
-                                            <img src="{{asset('assets/user//images/user-sm/1.jpg')}}"
+                                            <img src="{{ asset('assets/user//images/user-sm/1.jpg') }}"
                                                 class="img-fluid blur-up lazyload bg-img" alt="user">
                                             <span class="available-stats online"></span>
                                         </div>
@@ -530,14 +543,17 @@
                     <li>
                         <a href="birthday.html" class="tippy" title="Birthday">
                             <svg class="bar-icon fill-white">
-                                <use xlink:href="https://themes.pixelstrap.com/friendbook/assets/svg/icons.svg#cake"></use>
+                                <use xlink:href="https://themes.pixelstrap.com/friendbook/assets/svg/icons.svg#cake">
+                                </use>
                             </svg>
                         </a>
                     </li>
                     <li class="inner-list">
                         <a href="games.html" class="tippy" title="Games">
                             <svg class="bar-icon fill-white">
-                                <use xlink:href="https://themes.pixelstrap.com/friendbook/assets/svg/icons.svg#game-controller"></use>
+                                <use
+                                    xlink:href="https://themes.pixelstrap.com/friendbook/assets/svg/icons.svg#game-controller">
+                                </use>
                             </svg>
                         </a>
                     </li>
@@ -1055,7 +1071,7 @@
                 <div class="header-left">
                     <div class="brand-logo">
                         <a href="index.html">
-                            <img src="{{asset('assets/user//images/icon/logo-color.png')}}" alt="logo"
+                            <img src="{{ asset('assets/user//images/icon/logo-color.png') }}" alt="logo"
                                 class="img-fluid blur-up lazyload">
                         </a>
                     </div>
@@ -1070,7 +1086,7 @@
                             <ul class="friend-list">
                                 <li>
                                     <div class="media">
-                                        <img src="{{asset('assets/user//images/user-sm/9.jpg')}}" alt="user">
+                                        <img src="{{ asset('assets/user//images/user-sm/9.jpg') }}" alt="user">
                                         <div class="media-body">
                                             <div>
                                                 <h5 class="mt-0">Paige Turner</h5>
@@ -1081,7 +1097,7 @@
                                 </li>
                                 <li>
                                     <div class="media">
-                                        <img src="{{asset('assets/user//images/user-sm/12.jpg')}}" alt="user">
+                                        <img src="{{ asset('assets/user//images/user-sm/12.jpg') }}" alt="user">
                                         <div class="media-body">
                                             <div>
                                                 <h5 class="mt-0">Paige Turner</h5>
@@ -1092,7 +1108,7 @@
                                 </li>
                                 <li>
                                     <div class="media">
-                                        <img src="{{asset('assets/user//images/user-sm/15.jpg')}}" alt="user">
+                                        <img src="{{ asset('assets/user//images/user-sm/15.jpg') }}" alt="user">
                                         <div class="media-body">
                                             <div>
                                                 <h5 class="mt-0">Paige Turner</h5>
@@ -1111,8 +1127,8 @@
                             </a>
                         </li>
                         <li class="header-btn custom-dropdown dropdown-lg add-friend">
-                            <a class="main-link" href="javascript:void(0)" data-bs-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
+                            <a class="main-link" href="javascript:void(0)" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
                                 <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="user-plus"></i>
                             </a>
                             <div class="dropdown-menu">
@@ -1126,7 +1142,8 @@
                                     <ul class="friend-list">
                                         <li>
                                             <div class="media">
-                                                <img src="{{asset('assets/user//images/user-sm/5.jpg')}}" alt="user">
+                                                <img src="{{ asset('assets/user//images/user-sm/5.jpg') }}"
+                                                    alt="user">
                                                 <div class="media-body">
                                                     <div>
                                                         <h5 class="mt-0">Paige Turner</h5>
@@ -1141,7 +1158,8 @@
                                         </li>
                                         <li>
                                             <div class="media">
-                                                <img src="{{asset('assets/user//images/user-sm/6.jpg')}}" alt="user">
+                                                <img src="{{ asset('assets/user//images/user-sm/6.jpg') }}"
+                                                    alt="user">
                                                 <div class="media-body">
                                                     <div>
                                                         <h5 class="mt-0">Paige Turner</h5>
@@ -1156,7 +1174,8 @@
                                         </li>
                                         <li>
                                             <div class="media">
-                                                <img src="{{asset('assets/user//images/user-sm/7.jpg')}}" alt="user">
+                                                <img src="{{ asset('assets/user//images/user-sm/7.jpg') }}"
+                                                    alt="user">
                                                 <div class="media-body">
                                                     <div>
                                                         <h5 class="mt-0">Paige Turner</h5>
@@ -1171,7 +1190,8 @@
                                         </li>
                                         <li>
                                             <div class="media">
-                                                <img src="{{asset('assets/user//images/user-sm/2.jpg')}}" alt="user">
+                                                <img src="{{ asset('assets/user//images/user-sm/2.jpg') }}"
+                                                    alt="user">
                                                 <div class="media-body">
                                                     <div>
                                                         <h5 class="mt-0">Paige Turner</h5>
@@ -1205,10 +1225,10 @@
                     </div>
                     <ul class="option-list">
                         <li class="header-btn custom-dropdown dropdown-lg btn-group message-btn">
-                            <a class="main-link" href="javascript:void(0)" data-bs-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="message-circle"></i><span
-                                    class="count success">2</span>
+                            <a class="main-link" href="javascript:void(0)" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="icon-light stroke-width-3 iw-16 ih-16"
+                                    data-feather="message-circle"></i><span class="count success">2</span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right">
                                 <div class="dropdown-header">
@@ -1247,7 +1267,8 @@
                                         <li>
                                             <a href="#">
                                                 <div class="media">
-                                                    <img src="{{asset('assets/user//images/user-sm/1.jpg')}}" alt="user">
+                                                    <img src="{{ asset('assets/user//images/user-sm/1.jpg') }}"
+                                                        alt="user">
                                                     <div class="media-body">
                                                         <div>
                                                             <h5 class="mt-0">Paige Turner</h5>
@@ -1263,7 +1284,8 @@
                                         <li>
                                             <a href="#">
                                                 <div class="media">
-                                                    <img src="{{asset('assets/user//images/user-sm/2.jpg')}}" alt="user">
+                                                    <img src="{{ asset('assets/user//images/user-sm/2.jpg') }}"
+                                                        alt="user">
                                                     <div class="media-body">
                                                         <div>
                                                             <h5 class="mt-0">Paige Turner</h5>
@@ -1276,7 +1298,8 @@
                                         <li>
                                             <a href="#">
                                                 <div class="media">
-                                                    <img src="{{asset('assets/user//images/user-sm/3.jpg')}}" alt="user">
+                                                    <img src="{{ asset('assets/user//images/user-sm/3.jpg') }}"
+                                                        alt="user">
                                                     <div class="media-body">
                                                         <div>
                                                             <h5 class="mt-0">Bob Frapples</h5>
@@ -1374,7 +1397,8 @@
                                                 <div class="icon">
                                                     <svg class="bar-icon">
                                                         <use class="fill-color"
-                                                            xlink:href="https://themes.pixelstrap.com/friendbook/assets/svg/icons.svg#cake"></use>
+                                                            xlink:href="https://themes.pixelstrap.com/friendbook/assets/svg/icons.svg#cake">
+                                                        </use>
                                                     </svg>
                                                 </div>
                                                 <h5>event</h5>
@@ -1399,8 +1423,8 @@
                             </div>
                         </li>
                         <li class="header-btn custom-dropdown dropdown-lg btn-group notification-btn">
-                            <a class="main-link" href="javascript:void(0)" data-bs-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
+                            <a class="main-link" href="javascript:void(0)" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
                                 <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="bell"></i><span
                                     class="count warning">2</span>
                             </a>
@@ -1416,10 +1440,12 @@
                                         <li class="d-block">
                                             <div>
                                                 <div class="media">
-                                                    <img src="{{asset('assets/user//images/user-sm/5.jpg')}}" alt="user">
+                                                    <img src="{{ asset('assets/user//images/user-sm/5.jpg') }}"
+                                                        alt="user">
                                                     <div class="media-body">
                                                         <div>
-                                                            <h5 class="mt-0"><span>Paige Turner</span> send you a friend
+                                                            <h5 class="mt-0"><span>Paige Turner</span> send you a
+                                                                friend
                                                                 request
                                                             </h5>
                                                             <h6> 1 mutual friend</h6>
@@ -1437,10 +1463,12 @@
                                         <li>
                                             <a href="#">
                                                 <div class="media">
-                                                    <img src="{{asset('assets/user//images/user-sm/6.jpg')}}" alt="user">
+                                                    <img src="{{ asset('assets/user//images/user-sm/6.jpg') }}"
+                                                        alt="user">
                                                     <div class="media-body">
                                                         <div>
-                                                            <h5 class="mt-0"><span>Bob Frapples</span> add their stories
+                                                            <h5 class="mt-0"><span>Bob Frapples</span> add their
+                                                                stories
                                                             </h5>
                                                             <h6>8 hour ago</h6>
                                                         </div>
@@ -1451,10 +1479,12 @@
                                         <li>
                                             <a href="#">
                                                 <div class="media">
-                                                    <img src="{{asset('assets/user//images/user-sm/7.jpg')}}" alt="user">
+                                                    <img src="{{ asset('assets/user//images/user-sm/7.jpg') }}"
+                                                        alt="user">
                                                     <div class="media-body">
                                                         <div>
-                                                            <h5 class="mt-0"><span>Josephin water</span> have birthday
+                                                            <h5 class="mt-0"><span>Josephin water</span> have
+                                                                birthday
                                                                 today
                                                             </h5>
                                                             <h6>sun at 5.55 AM</h6>
@@ -1466,7 +1496,8 @@
                                         <li>
                                             <a href="#">
                                                 <div class="media">
-                                                    <img src="{{asset('assets/user//images/user-sm/2.jpg')}}" alt="user">
+                                                    <img src="{{ asset('assets/user//images/user-sm/2.jpg') }}"
+                                                        alt="user">
                                                     <div class="media-body">
                                                         <div>
                                                             <h5 class="mt-0"><span>Petey Cruiser</span> added a new
@@ -1483,13 +1514,13 @@
                             </div>
                         </li>
                         <li class="header-btn custom-dropdown profile-btn btn-group">
-                            <a class="main-link" href="javascript:void(0)" data-bs-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
+                            <a class="main-link" href="javascript:void(0)" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
                                 <i class="icon-light stroke-width-3 d-sm-none d-block iw-16 ih-16"
                                     data-feather="user"></i>
                                 <div class="media d-none d-sm-flex">
                                     <div class="user-img">
-                                        <img src="{{asset('assets/user//images/user-sm/1.jpg')}}"
+                                        <img src="{{ asset('assets/user//images/user-sm/1.jpg') }}"
                                             class="img-fluid blur-up lazyload bg-img" alt="user">
                                         <span class="available-stats online"></span>
                                     </div>
@@ -1548,16 +1579,18 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="login.html">
-                                                <div class="media">
-                                                    <i data-feather="log-out"></i>
-                                                    <div class="media-body">
-                                                        <div>
-                                                            <h5 class="mt-0">log out</h5>
+                                            <form action="{{ route('logout') }}" method="POST">
+                                                @csrf
+                                                <!-- Use a button with submit action -->
+                                                <button type="submit" style="all: unset; cursor: pointer;">
+                                                    <div class="media">
+                                                        <i data-feather="log-out"></i>
+                                                        <div class="media-body">
+                                                            <h5 class="mt-0">Log Out</h5>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </a>
+                                                </button>
+                                            </form>
                                         </li>
                                     </ul>
                                 </div>

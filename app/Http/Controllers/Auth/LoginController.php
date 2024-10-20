@@ -15,6 +15,7 @@ class LoginController extends Controller
      */
     public function showLoginForm()
     {
+        // Render the login view
         return view('auth.login');
     }
 
@@ -28,20 +29,20 @@ class LoginController extends Controller
     {
         // Validate login form data
         $request->validate([
-            'email' => 'required|email',
-            'password' => 'required',
+            'email' => 'required|email',  // Email must be valid and required
+            'password' => 'required',     // Password is required
         ]);
 
-        // Attempt to log in the user
+        // Attempt to log in the user with the given email and password
         if (Auth::attempt($request->only('email', 'password'), $request->filled('remember'))) {
-            // Authentication passed
-            return redirect('/')->with('success', 'Login successful!'); // Redirect to the home page with success message
+            // Authentication successful
+            return redirect('/')->with('success', 'Login successful!');  // Redirect to home with a success message
         }
 
         // Authentication failed
         return back()->withErrors([
-            'email' => 'These credentials do not match our records.',
-        ])->withInput($request->only('email', 'remember')); // Send back the input (except password) and errors to the login form
+            'email' => 'These credentials do not match our records.',  // Error message for invalid credentials
+        ])->withInput($request->only('email', 'remember'));  // Keep the email and remember checkbox state
     }
 
     /**
@@ -52,12 +53,16 @@ class LoginController extends Controller
      */
     public function logout(Request $request)
     {
-        Auth::logout();
+        // dd("test");
+        Auth::logout();  // Log out the user
 
+        // Invalidate the session to prevent session hijacking
         $request->session()->invalidate();
 
+        // Regenerate the CSRF token for security
         $request->session()->regenerateToken();
 
-        return redirect('/');
+        // Redirect to the home page after logout
+        return redirect('/login')->with('info', 'You have been logged out.');
     }
 }
